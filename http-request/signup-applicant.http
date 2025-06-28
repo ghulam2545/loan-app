@@ -1,0 +1,12 @@
+### POST request to singup an applicant
+POST http://localhost:8095/auth/signup
+Content-Type: application/json
+
+{
+  "firstName": "Alice",
+  "lastName": "Smith",
+  "email": "alice@example.com",
+  "password": "password123"
+}
+
+###
