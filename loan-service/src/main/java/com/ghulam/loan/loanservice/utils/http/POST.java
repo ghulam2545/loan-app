@@ -1,4 +1,4 @@
-package com.ghulam.loan.loanservice.http;
+package com.ghulam.loan.loanservice.utils.http;
 
 import org.springframework.core.annotation.AliasFor;
 import org.springframework.web.bind.annotation.RequestMapping;
