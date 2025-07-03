@@ -22,3 +22,11 @@ services:
     container_name: payment-service
     ports:
       - "8097:8097"
+
+  gateway-app:
+    build:
+      context: ./gateway-app
+      dockerfile: Dockerfile
+    container_name: gateway-app
+    ports:
+      - "8090:8090"
